@@ -10,7 +10,17 @@ Installation
 
 The recommended way to install to install the requirements of these tutorials is to use conda_ to manage properly a python environment. 
 
-After having cloned this repository, the package required for the tutorials may be installed using the following command:
+After having cloned this repository, the package required for the tutorials may be installed using the following command::
+
+conda env create -f xarray_env.yml
+
+Then, activate the environement using::
+
+source activate xarray_env
+
+and finallly launch a jupyter notebook using the command::
+
+jupyter notebook
 
 Contents
 --------
