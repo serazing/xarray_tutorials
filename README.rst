@@ -12,22 +12,20 @@ The recommended way to install to install the requirements of these tutorials is
 
 After having cloned this repository, the package required for the tutorials may be installed using the following command::
 
-  conda env create -f xarray_env.yml
+conda env create -f xarray_env.yml
 
 Then, activate the environement using::
 
-  source activate xarray_env
+source activate xarray_env
 
 and finallly launch a jupyter notebook using the command::
 
-  jupyter notebook
-
+jupyter notebook
 
 Contents
 --------
-There are several notebooks that introduces to the different functionnalities of xarray_:
+ * Computation of climatological quanitities
 
- * ``sea_level_variability.ipynb``: Computation of climatological quantities of sea level reconstruction from the `JPL <http://sealevel.jpl.nasa.gov/data/>`_
 
 
 .. _dask: http://dask.pydata.org

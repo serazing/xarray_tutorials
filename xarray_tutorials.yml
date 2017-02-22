@@ -1,0 +1,154 @@
+name: xarray_tutorials
+channels: !!python/tuple
+- !!python/unicode
+  'defaults'
+dependencies:
+- _nb_ext_conf=0.3.0=py27_0
+- anaconda-client=1.6.2=py27_0
+- backports=1.0=py27_0
+- backports_abc=0.5=py27_0
+- bleach=1.5.0=py27_0
+- bokeh=0.12.4=py27_0
+- cairo=1.14.8=0
+- chest=0.2.3=py27_0
+- cloog=0.18.0=0
+- cloudpickle=0.2.2=py27_0
+- clyent=1.2.2=py27_0
+- configparser=3.5.0=py27_0
+- curl=7.49.0=1
+- cycler=0.10.0=py27_0
+- cython=0.25.2=py27_0
+- dask=0.13.0=py27_0
+- dbus=1.10.10=0
+- decorator=4.0.11=py27_0
+- entrypoints=0.2.2=py27_1
+- enum34=1.1.6=py27_0
+- expat=2.1.0=0
+- fontconfig=2.12.1=3
+- freetype=2.5.5=2
+- funcsigs=1.0.2=py27_0
+- functools32=3.2.3.2=py27_0
+- futures=3.0.5=py27_0
+- gcc=4.8.5=7
+- get_terminal_size=1.0.0=py27_0
+- glib=2.50.2=1
+- gmp=6.1.0=0
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- harfbuzz=0.9.39=2
+- hdf4=4.2.11=0
+- hdf5=1.8.17=1
+- heapdict=1.0.0=py27_1
+- html5lib=0.999=py27_0
+- icu=54.1=0
+- ipykernel=4.5.2=py27_0
+- ipython=5.2.2=py27_0
+- ipython_genutils=0.1.0=py27_0
+- ipywidgets=5.2.2=py27_1
+- isl=0.12.2=0
+- jbig=2.1=0
+- jinja2=2.9.5=py27_0
+- jpeg=9b=0
+- jsonschema=2.5.1=py27_0
+- jupyter=1.0.0=py27_3
+- jupyter_client=4.4.0=py27_0
+- jupyter_console=5.1.0=py27_0
+- jupyter_core=4.3.0=py27_0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libiconv=1.14=0
+- libnetcdf=4.4.1=0
+- libpng=1.6.27=0
+- libsodium=1.0.10=0
+- libtiff=4.0.6=3
+- libtool=2.4.2=0
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- llvmlite=0.16.0=py27_0
+- locket=0.2.0=py27_1
+- markupsafe=0.23=py27_2
+- matplotlib=2.0.0=np111py27_0
+- mistune=0.7.3=py27_0
+- mkl=2017.0.1=0
+- mpc=1.0.3=0
+- mpfr=3.1.5=0
+- nb_anacondacloud=1.2.0=py27_0
+- nb_conda=2.0.0=py27_0
+- nb_conda_kernels=2.0.0=py27_0
+- nbconvert=5.1.1=py27_0
+- nbformat=4.2.0=py27_0
+- nbpresent=3.0.2=py27_0
+- netcdf4=1.2.4=np111py27_0
+- notebook=4.3.1=py27_0
+- numba=0.31.0=np111py27_0
+- numpy=1.11.3=py27_0
+- openssl=1.0.2k=0
+- pandas=0.19.2=np111py27_1
+- pandocfilters=1.4.1=py27_0
+- pango=1.40.3=1
+- partd=0.3.7=py27_0
+- path.py=10.1=py27_0
+- pathlib2=2.2.0=py27_0
+- pcre=8.39=1
+- pexpect=4.2.1=py27_0
+- pickleshare=0.7.4=py27_0
+- pip=9.0.1=py27_1
+- pixman=0.34.0=0
+- proj4=4.9.2=0
+- prompt_toolkit=1.0.9=py27_0
+- ptyprocess=0.5.1=py27_0
+- pycairo=1.10.0=py27_0
+- pygments=2.1.3=py27_0
+- pyparsing=2.1.4=py27_0
+- pyqt=5.6.0=py27_2
+- python=2.7.13=0
+- python-dateutil=2.6.0=py27_0
+- pytz=2016.10=py27_0
+- pyyaml=3.12=py27_0
+- pyzmq=16.0.2=py27_0
+- qt=5.6.2=3
+- qtconsole=4.2.1=py27_1
+- readline=6.2=2
+- requests=2.13.0=py27_0
+- scandir=1.4=py27_0
+- scipy=0.18.1=np111py27_1
+- setuptools=27.2.0=py27_0
+- simplegeneric=0.8.1=py27_1
+- singledispatch=3.4.0.3=py27_0
+- sip=4.18=py27_0
+- six=1.10.0=py27_0
+- sqlite=3.13.0=0
+- ssl_match_hostname=3.4.0.2=py27_1
+- subprocess32=3.2.7=py27_0
+- terminado=0.6=py27_0
+- testpath=0.3=py27_0
+- tk=8.5.18=0
+- toolz=0.8.2=py27_0
+- tornado=4.4.2=py27_0
+- traitlets=4.3.1=py27_0
+- wcwidth=0.1.7=py27_0
+- wheel=0.29.0=py27_0
+- widgetsnbextension=1.2.6=py27_0
+- xarray=0.9.1=py27_0
+- xz=5.2.2=1
+- yaml=0.1.6=0
+- zeromq=4.1.5=0
+- zlib=1.2.8=3
+- pip:
+  - backports-abc==0.5
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - graphviz==0.5.2
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.4.0
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - nb-anacondacloud==1.2.0
+  - nb-conda==2.0.0
+  - nb-conda-kernels==2.0.0
+  - prompt-toolkit==1.0.9
+  - pyshp==1.2.10
+  - shapely==1.5.17.post1
+prefix: /home/serazin/anaconda2/envs/xarray_tutorials
+
