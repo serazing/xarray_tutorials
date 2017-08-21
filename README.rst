@@ -12,11 +12,11 @@ The recommended way to install to install the requirements of these tutorials is
 
 After having cloned this repository, the package required for the tutorials may be installed using the following command::
 
-`conda env create -f xarray_env.yml`
+`conda create -n xarray_tutorials xarray dask pandas matplotlib scipy netcdf4 jupyter`
 
 Then, activate the environement using::
 
-`source activate xarray_env`
+`source activate xarray_tutorials`
 
 and finallly launch a jupyter notebook using the command::
 
